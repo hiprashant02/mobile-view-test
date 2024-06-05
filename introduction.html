@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 1: Number Systems - Irrational Numbers</title>
+    <title>Chapter 1: Number Systems - Representing Real Numbers on the Number Line</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,70 +38,82 @@
         .important-questions p {
             margin-bottom: 5px;
         }
-        @media (max-width: 600px) {
-            body {
-                margin: 10px;
-                font-size: 16px;
-            }
-            h1 {
-                font-size: 1.8em;
-            }
-            h2 {
-                font-size: 1.3em;
-            }
-        }
     </style>
 </head>
 <body>
-    <h1>Chapter 1: Number Systems - Irrational Numbers</h1>
+    <h1>Chapter 1: Number Systems - Representing Real Numbers on the Number Line</h1>
     
-    <h2>1.2 Irrational Numbers</h2>
+    <h2>1.4 Representing Real Numbers on the Number Line</h2>
     
     <h2>Definition</h2>
-    <p><strong>Irrational numbers</strong> are numbers that cannot be expressed as a ratio of two integers. In other words, they cannot be written in the form p/q, where p and q are integers and q ≠ 0. The decimal expansion of irrational numbers is non-terminating and non-repeating.</p>
+    <p>Representing real numbers on the number line helps visualize the order and magnitude of real numbers.</p>
     
-    <h2>Examples</h2>
-    <p>Some common examples of irrational numbers include:</p>
+    <h2>Using the Number Line</h2>
+    <p>The number line extends infinitely in both directions. Each point on the number line corresponds to a unique real number.</p>
     <ul>
-        <li>The square root of any prime number, such as √2, √3, √5.</li>
-        <li>The mathematical constant &pi; (Pi), which is approximately 3.14159...</li>
-        <li>The mathematical constant e (Euler's number), which is approximately 2.71828...</li>
+        <li><strong>Positive numbers:</strong> Plotted to the right of zero, increasing as we move to the right.</li>
+        <li><strong>Negative numbers:</strong> Plotted to the left of zero, decreasing as we move to the left.</li>
+        <li><strong>Zero:</strong> Represents neither positive nor negative numbers and acts as the origin.</li>
     </ul>
     
-    <h2>Properties of Irrational Numbers</h2>
+    <h2>Properties</h2>
     <ul>
-        <li>Irrational numbers cannot be expressed as a fraction.</li>
-        <li>The decimal expansion of an irrational number goes on forever without repeating.</li>
-        <li>The sum or difference of a rational number and an irrational number is irrational.</li>
-        <li>The product or quotient of a non-zero rational number and an irrational number is irrational.</li>
+        <li>Real numbers can be represented on the number line in a one-to-one correspondence.</li>
+        <li>The distance between two points on the number line represents the absolute difference between the corresponding real numbers.</li>
+        <li>Operations like addition and subtraction can be visualized as movements along the number line.</li>
     </ul>
+
+    <svg width="100%" height="100" viewBox="0 0 1000 100">
+        <!-- Horizontal line -->
+        <line x1="50" y1="50" x2="950" y2="50" style="stroke:black;stroke-width:2" />
+        <!-- Points -->
+        <circle cx="200" cy="50" r="3" fill="black" />
+        <circle cx="500" cy="50" r="3" fill="black" />
+        <circle cx="700" cy="50" r="3" fill="black" />
+        <circle cx="100" cy="50" r="3" fill="black" />
+        <!-- Labels -->
+        <text x="180" y="80" font-size="18" text-anchor="middle">-3</text>
+        <text x="480" y="80" font-size="18" text-anchor="middle">0</text>
+        <text x="680" y="80" font-size="18" text-anchor="middle">2.5</text>
+        <text x="80" y="80" font-size="18" text-anchor="middle">-1/2</text>
+    </svg>
 
     <div class="important-questions">
         <h3>Important Questions</h3>
-        <p><strong>Question 1:</strong> Determine whether the following numbers are rational or irrational: √2, 4.5, &pi;, -3.75, √16</p>
-        <p><strong>Answer 1:</strong></p>
-        <ul>
-            <li>√2: Irrational</li>
-            <li>4.5: Rational (can be expressed as 9/2)</li>
-            <li>&pi;: Irrational</li>
-            <li>-3.75: Rational (can be expressed as -15/4)</li>
-            <li>√16: Rational (since √16 = 4, a whole number)</li>
-        </ul>
+        <p><strong>Question 1:</strong> Plot the following real numbers on the number line: -3, 0, 2.5, -1/2.</p>
+        <p><strong>Answer 1:</strong> The points are plotted on the number line as shown above.</p>
 
-        <p><strong>Question 2:</strong> Find the value of √3 + √5.</p>
-        <p><strong>Answer 2:</strong> √3 + √5 is an irrational number, so its value cannot be simplified further.</p>
+        <p><strong>Question 2:</strong> Which number is greater on the number line: -4 or -6?</p>
+        <p><strong>Answer 2:</strong> -4 is greater because it is plotted to the right of -6 on the number line.</p>
 
-        <p><strong>Question 3:</strong> Prove that the sum of a rational number and an irrational number is irrational.</p>
-        <p><strong>Answer 3:</strong> Let x be a rational number and y be an irrational number. Assume their sum, s = x + y, is rational. Then, y = s - x. Since the difference of two rational numbers is rational, y would also be rational, contradicting the given that y is irrational. Thus, the sum of a rational number and an irrational number is irrational.</p>
+        <p><strong>Question 3:</strong> What is the absolute difference between -5 and 3?</p>
+        <p><strong>Answer 3:</strong> The absolute difference is |3 - (-5)| = 8.</p>
 
-        <p><strong>Question 4:</strong> If x = 3 - √2, find x<sup>2</sup>.</p>
-        <p><strong>Answer 4:</strong> x<sup>2</sup> = (3 - √2)<sup>2</sup> = 9 - 6√2 + 2 = 11 - 6√2.</p>
+        <p><strong>Question 4:</strong> Represent the sum -2 + 3 on the number line.</p>
+        <svg width="100%" height="100" viewBox="0 0 1000 100">
+            <!-- Horizontal line -->
+            <line x1="50" y1="50" x2="950" y2="50" style="stroke:black;stroke-width:2" />
+            <!-- Points -->
+            <circle cx="400" cy="50" r="3" fill="black" />
+            <!-- Label -->
+            <text x="400" y="80" font-size="18" text-anchor="middle">-2 + 3 = 1</text>
+        </svg>
 
-        <p><strong>Question 5:</strong> Find two irrational numbers whose sum is rational.</p>
-        <p><strong>Answer 5:</strong> Let x = √2 and y = -√2. Both x and y are irrational. Their sum, x + y = √2 - √2 = 0, is rational.</p>
+        <p><strong>Question 5:</strong> If point A is at -3 and point B is at 5, what is the distance between them?</p>
+        <p><strong>Answer 5:</strong> The distance between A and B is |5 - (-3)| = 8 units.</p>
+
+        <p><strong>Question 6:</strong> Plot the irrational number √2 on the number line.</p>
+        <svg width="100%" height="100" viewBox="0 0 1000 100">
+            <!-- Horizontal line -->
+            <line x1="50" y1="50" x2="950" y2="50" style="stroke:black;stroke-width:2" />
+            <!-- Points -->
+            <circle cx="720" cy="50" r="3" fill="black" />
+            <!-- Label -->
+            <text x="720" y="80" font-size="18" text-anchor="middle">√2</text>
+        </svg>
     </div>
     
     <h2>Concept Understanding</h2>
-    <p>Irrational numbers are an essential part of the real number system. They help complete the number line by filling in the gaps between rational numbers. Understanding irrational numbers and their properties is crucial for higher-level mathematics, including algebra, geometry, and calculus.</p>
+    <p>Representing real numbers on the number line is a fundamental concept in mathematics. It provides a visual aid for understanding the order and magnitude of real numbers, facilitating various mathematical operations and comparisons.</p>
 </body>
 </html>
